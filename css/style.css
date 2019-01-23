@@ -96,3 +96,21 @@ header {
   background-color: blue;
   height: 100px;
 }
+
+footer {
+  height: 70px;
+  background-color: black;
+}
+
+.footer-logo {
+  padding-top: 5px;
+  padding-left: 278px;
+}
+
+.copyright {
+  float: right;
+  color: white;
+  padding-top: 28px;
+  padding-right: 278px;
+  font-size: 14px;
+}
