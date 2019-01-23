@@ -37,20 +37,26 @@ header {
   color: #FF5A00;
 }
 
-.what-title {
+.title {
   padding-top: 150px;
-  margin-left: 278px;
-  width: 280px;
   font-size: 40px;
   font-weight: 600;
   border-bottom: solid #FF5A00;
 }
 
-.what-comments {
+.what-title {
+  margin-left: 278px;
+  width: 280px;
+}
+
+.comments {
   margin-top: 100px;
+  font-weight: 300;
+}
+
+.what-comments {
   padding-top: 0;
   margin-left: 278px;
-  font-weight: 300;
   position: relative;
 }
 
@@ -66,11 +72,24 @@ header {
   width: 700px;
 }
 
-
-
 .want {
-  background-color: green;
-  height: 100px;
+  background-color: #FFF6F0;
+}
+
+.want-title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: solid #FF5A00;
+}
+
+.want-comment {
+  padding-bottom: 100px;
+  width: 730px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .activity {
