@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Hiragino Kaku Gothic ProN;
 }
 
 ul {
@@ -38,5 +39,42 @@ header {
 
 .top-img {
   width: 100%;
-  height: 1005;
+  height: 1003;
+}
+
+.what-title {
+  padding-top: 150px;
+  margin-left: 278px;
+  width: 280px;
+  font-size: 40px;
+  font-weight: 600;
+  border-bottom: solid #FF5A00;
+}
+
+.what-comments {
+  margin-top: 100px;
+  padding-top: 0;
+  margin-left: 278px;
+  font-weight: 300;
+}
+
+.what-comment {
+  margin-bottom: 100px;
+}
+
+/*.what-img {
+  z-index: -1;
+  position: relative;
+}*/
+
+
+
+.want {
+  background-color: green;
+  height: 100px;
+}
+
+.activity {
+  background-color: blue;
+  height: 100px;
 }
