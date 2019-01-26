@@ -5,16 +5,48 @@
     <title>箕輪編集室</title>
     <meta name="viewport" content="width = device-width, initial-sclae = 1">
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+      width: 80%;
+      margin: 50px auto 0px;
+    }
+
+    .slick-slide {
+      margin: 0 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+      color: black;
+    }
+  </style>
+</head>
+
+
   </head>
   <body>
     <header>
       <img class = "header-logo" src="img/orange.png">
       <div class = "header-list">
         <ul>
-        <li>活動内容</li>
-        <li>実現したいこと</li>
-        <li>箕輪編集室とは</li>
-      </ul>
+          <li>活動内容</li>
+          <li>実現したいこと</li>
+          <li>箕輪編集室とは</li>
+        </ul>
       </div>
     </header>
     <img class = "top-img" src="img/top-minohen.png">
@@ -68,64 +100,82 @@
           </div>
         </div>
       </div>
+
+
       <div class = "activity">
         <div class = "title activity-title">
           活動内容
         </div>
-        <!-- <div class = "activity-list">
-          <div id="stamp-carousel" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#stamp-carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#stamp-carousel" data-slide-to="1" class=""></li>
-              <li data-target="#stamp-carousel" data-slide-to="2" class=""></li>
-            </ol>
-            <div class="carousel-inner">
-              <ul>
-                <li class = "activity-box">
-                  <img src="img/1.png" class="activity-img">
-                  <div class = "a">Facebookグループでの交流</div>
-                </li>
-                <li class = "activity-box">
-                  <img src="img/2.png" class="activity-image">
-                  <div>リアルイベント、ZOOMイベントでの交流</div>
-                </li class = "activity-box">
-                <li class = "activity-box">
-                  <img src="img/3.png" class="activity-image">
-                  <div>月イチ定例会</div>
-                </li>
-                <li class = "activity-box">
-                  <img src="img/4.png" class="activity-image">
-                  <div>定例会だけじゃない豪華イベント</div>
-                </li>
-              </ul>
-            </div>
-          </div>
-         </div>-->
-      </div>
-
-
-      <div class = "join">
-        <div class = "join-bg-filter">
-          <div class = "panel">
-            <div class = "title join-title">
-              箕輪編集室への入会はこちら
-            </div>
-            <div class = "join-comments">
-              <div class = "join-comment">
-                箕輪厚介の圧倒的成長とともに、コミュニティの存在意義や役割にもアップデートがかかり、 <br>
-                「最も新しくて最も勢いのあるクリエイティブ集団」でありながらも <br>
-                「みんなが安全安心を感じることができる居場所」を作っているオンラインサロン。 <br>
-                それが箕輪編集室です。
-              </div>
-              <div class = "join-comment">
-                皆様のご参加をお待ちしております。
+          <section class = "slider regular">
+            <div class = "slider-container">
+              <img src="img/1.png" class="activity-img">
+              <div class = "slider-title">Facebookグループでの交流</div>
+              <div class = "slider-comment">
+                メンバー間の日々の交流は、非公開のFacebookグループにて行います。 <br>
+                箕輪編集室本体のグループの他にたくさんのFacebookグループがあるので、好きなグループに入って交流することができます。 <br>
+                クリエイティブ活動チームはもちろんのこと、エリアチーム、学生、女性などの属性に基づいたチームもあります。
               </div>
             </div>
-            <div class = "join-btn">
-              <a href="#" class = "join-button"><img class = "btn-img"src="img/button.png"></a>
+            <div class = "slider-container">
+              <img src="img/2.png" class= "activity-img">
+              <div class = "slider-title">リアルイベント、ZOOMイベントでの交流</div>
+              <div class = "slider-comment">
+                交流はFacebookグループだけに止まりません。 <br>
+                ゼミや勉強会だけでなく今では新歓、飲み会などの気軽なイベントが増えて来ました。またもっと手軽に会話するきっかけとして、ビデオ会議ツールを用いた交流も盛んです。
+              </div>
+            </div>
+            <div class = "slider-container">
+              <img src="img/3.png" class="activity-img">
+              <div class = "slider-title">月イチ定例会</div>
+              <div class = "slider-comment">
+                定例会は箕輪さんとゲストがじっくり会話するイベントです。各分野の“トップ・オブ・トップ”の思考や熱量を体感できます。<br>
+                定例会の様子は、箕輪編集室の非公開Facebookグループで毎回ライブ配信されています。
+              </div>
+            </div>
+            <div class = "slider-container">
+              <img src="img/4.png" class="activity-img">
+              <div class = "slider-title">定例会だけじゃない豪華イベント</div>
+              <div class = "slider-comment">
+                定例会以外でも、豪華ゲストを招いたイベントをこれまでたくさん開催して来ました。箕輪編集室に参加すれば、箕輪さんとトップゲストの対談をリアルタイムで体感することができます。
+              </div>
+            </div>
+          </section>
+
+          <script type="text/javascript">
+            $(document).on('ready', function(){
+              $('.regular').slick({
+                centerMode: true,
+                centerPadding: '100px',
+                dots: true,
+                autoplay: false,
+              });
+            });
+          </script>
+
+         </div>
+
+         <div class = "join">
+          <div class = "join-bg-filter">
+            <div class = "panel">
+              <div class = "title join-title">
+                箕輪編集室への入会はこちら
+              </div>
+              <div class = "join-comments">
+                <div class = "join-comment">
+                  箕輪厚介の圧倒的成長とともに、コミュニティの存在意義や役割にもアップデートがかかり、 <br>
+                  「最も新しくて最も勢いのあるクリエイティブ集団」でありながらも <br>
+                  「みんなが安全安心を感じることができる居場所」を作っているオンラインサロン。 <br>
+                  それが箕輪編集室です。
+                </div>
+                <div class = "join-comment">
+                  皆様のご参加をお待ちしております。
+                </div>
+              </div>
+              <div class = "join-btn">
+                <a href="#" class = "join-button"><img class = "btn-img"src="img/button.png"></a>
+              </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

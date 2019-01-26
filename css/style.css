@@ -86,76 +86,44 @@ header {
   padding-bottom: 100px;
 }
 
+
 .activity {
   background-color: #FFF6F0;
+  padding-bottom: 100px;
 }
 
 .activity-title {
   width: 160px;
 }
 
-
-/*-----------------------------------------*/
-
-/*.stamps-section {
-  text-align: center;
-  padding-bottom: 60px;
-}*/
-
-/*#stamps > .container {
-  width: 936px;
-}*/
-
-/*.activity-list {
-  width: 10000px;
-}*/
-
-/*.activity-list li {
-  float: left;
-  margin: 0 auto;
-  margin-bottom: 80px;
-}
-
-.activity-list ul {
-  padding-left: 0;
-}
-
 .activity-img {
-  margin-top: 110px;
-  width: 609px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: relative;
 }
 
-.atitle {
-  margin-top: 50px;
-}*/
-
-/*.stamp-image {
-  margin: 10px 0;
-  padding: 0px;
-}*/
-
-/*#stamp-carousel img {
-  display: inline-block;
-}*/
-
-/*#stamp-carousel li {
-  background-color: #869791;
-}*/
-
-/*.carousel-indicators {
-  z-index: 5;
-}*/
-
-/*.stamp-link {
-  color: #5983ff;
+.slider {
+  margin-top: 100px;
 }
-*/
 
-/*-----------------------------------------*/
+.slider-title {
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.slider-comment {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
 .join {
   background: url("../img/minohen2.png") no-repeat center center;
   background-size: auto 100%;
-  /*position: relative;*/
 }
 
 .join-title {
