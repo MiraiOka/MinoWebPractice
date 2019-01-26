@@ -87,8 +87,109 @@ header {
 }
 
 .activity {
-  background-color: blue;
-  height: 100px;
+  background-color: #FFF6F0;
+}
+
+.activity-title {
+  width: 160px;
+}
+
+
+/*-----------------------------------------*/
+
+/*.stamps-section {
+  text-align: center;
+  padding-bottom: 60px;
+}*/
+
+/*#stamps > .container {
+  width: 936px;
+}*/
+
+/*.activity-list {
+  width: 10000px;
+}*/
+
+/*.activity-list li {
+  float: left;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.activity-list ul {
+  padding-left: 0;
+}
+
+.activity-img {
+  margin-top: 110px;
+  width: 609px;
+}
+
+.atitle {
+  margin-top: 50px;
+}*/
+
+/*.stamp-image {
+  margin: 10px 0;
+  padding: 0px;
+}*/
+
+/*#stamp-carousel img {
+  display: inline-block;
+}*/
+
+/*#stamp-carousel li {
+  background-color: #869791;
+}*/
+
+/*.carousel-indicators {
+  z-index: 5;
+}*/
+
+/*.stamp-link {
+  color: #5983ff;
+}
+*/
+
+/*-----------------------------------------*/
+.join {
+  background: url("../img/minohen2.png") no-repeat center center;
+  background-size: auto 100%;
+  /*position: relative;*/
+}
+
+.join-title {
+  width: 390px;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.join-comments {
+  margin-top: 82px;
+}
+
+.join-comment {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.join-btn {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.join-bg-filter {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 100px 0;
+}
+
+.panel {
+  position: relative;
+  width: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 footer {
